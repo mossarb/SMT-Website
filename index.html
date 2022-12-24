@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Tools - SMT Tools</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.min.css"><script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.2.0/sweetalert2.all.min.js"></script>
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#">
+        <h1 class="logo">SMT</h1>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">SMT</a>
+
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="./index.html" class="navbar-link" data-navbar-link>Ana Sayfa</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./send-follower.html" class="navbar-link" data-navbar-link>Ücretsiz Takipçi</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./send_like.html" class="navbar-link" data-navbar-link>Ücretsiz Beğeni</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="./send-prew.html" class="navbar-link" data-navbar-link>Ücretsiz Görüntüleme</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#cont" class="navbar-link" data-navbar-link>Destek & İletişim</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-navbar-link>Servisler</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="./send-follower.html" class="btn">
+        <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
+
+        <span>Ücretsiz Takipçi</span>
+      </a>
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">Social Media Tools - SMT Tools</p>
+
+            <h2 class="h2 hero-title">Sosyal Medya Hesabınızı Geliştirin</h2>
+
+            <p class="hero-text">
+              Ücretis Hizmetlerimiz ile Deneyebilirsiniz.
+            </p>
+
+            <a href="./send-follower.html">
+            <button class="btn">Devam Et</button>
+            </a>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="694" height="529" loading="lazy" alt="hero-banner"
+              class="w-100 banner-animation">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner.png" width="700" height="532" loading="lazy" alt="about banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title underline">Hakkımızda</h2>
+
+            <p class="about-text">
+              SMT, instagram için takipçi, beğeni, görüntüleme hizmetleri.
+            </p>
+
+            <p class="about-text">
+              *4 Günde Bir Yenilenir. 
+            </p>
+
+            <ul class="stats-list">
+
+              <li class="stats-card">
+                <p class="h3 stats-title">2500</p>
+
+                <p class="stats-text">Ücretsiz Takipçi</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">4000</p>
+
+                <p class="stats-text">Ücretsiz Beğeni</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">8000</p>
+
+                <p class="stats-text">Ücretsiz Görüntüleme</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Servisler</h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="./send-follower.html">
+                <div class="card-icon">
+                  <ion-icon name="man-outline"></ion-icon>
+                </div>
+              </a>
+
+                <h3 class="h3 title">Takipçi</h3>
+
+                <p class="text">
+                  Instagram için Ücretsiz Bot Takipçi veya Ücretli Gerçek Takipçi
+                </p>
+
+                <a href="./send-follower.html">
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+              </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Beğeni</h3>
+
+                <p class="text">
+                  Paylaşılan Herkese Açık Hesaplarda Gönderi Beğenisi.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+
+                <h3 class="h3 title">Görüntüleme</h3>
+
+                <p class="text">
+                  Hikaye izleme, Reels izleme hizmetleri.
+                </p>
+
+                <button class="card-btn" aria-label="Show More">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Sık Sorulan Sorular</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">İşlemler Ne Kadar Sürer?</h3>
+
+                  <p class="text">
+                    Yoğunluğa bağlı olarak değişebilir ama en fazla 1 saat içerisinde tamamlanır.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Ödeme Seçeneği?</h3>
+
+                  <p class="text">
+                    Sizden para istemiyoruz.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <figure class="features-banner">
+            <img src="./assets/images/feautres-banner.png" width="369" height="318" loading="lazy" alt="Features Banner"
+              class="w-100 banner-animation">
+          </figure>
+
+          <ul class="features-list">
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Takipçim Gelmedi</h3>
+
+                  <p class="text">
+                    Biz bir şirket değiliz ve günde 8000+ siparişe yetişmekte zorluk yaşıyoruz, tekrar deneyin.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="features-card">
+
+                <div class="icon">
+                  <ion-icon name="bulb-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title">Gerçek Takipçi</h3>
+
+                  <p class="text">
+                    Burada gerçek takipçi yoktur, Hepsi bot.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Yeni Haberler</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" width="750" height="350" loading="lazy"
+                      alt="Vestibulum massa arcu, consectetu pellentesque scelerisque." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="#">
+                      Yakında Ücretsiz Takipçi Sayısı 5000'e Çıkacaktır.
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Çok Yakında.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2023-07-07">2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="267">267</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" width="750" height="350" loading="lazy"
+                      alt="Quisque egestas iaculis felis eget placerat ut pulvinar mi." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="#">
+                      Yakında Ücretsiz Beğeni Sayısı 8000'e Çıkacaktır.
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Çok Yakında.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2023-03-07">2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="128">128</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" width="750" height="350" loading="lazy"
+                      alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="#">
+                      İşlemler Hızlanacaktır.
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Yaptığınız işlemler 6 saat içerisinde onaylanacaktır, Çok Yakında.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2023-03-07">2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="67">67</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.jpg" width="750" height="350" loading="lazy"
+                      alt="" class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a href="#">
+                      Destek Hattı Güncellendi.
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Telefon Numarası: +90 542 123 73 36
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2023-03-07">2023</time>
+                    </div>
+
+                    <button class="comment" aria-label="Comment">
+                      <ion-icon name="chatbubble-outline"></ion-icon>
+
+                      <data value="12">12</data>
+                    </button>
+
+                    <button class="share" aria-label="Share">
+                      <ion-icon name="share-social-outline"></ion-icon>
+                    </button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer cont" id="cont">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">SMT</a>
+
+          <p class="text">
+            Social Media Tools
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Kısayollar</p>
+          </li>
+
+          <li>
+            <a href="/" class="footer-link">Ana Sayfa</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Hakkımızda</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Servisler</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ekip</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Haberler</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Servisler</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ücretsiz Takipçi</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ücretsiz Beğeni</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ücretsiz Görüntüleme</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ücretsiz Hizmetler</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Instagram</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Diğer Linkler</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">SSS</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Ana Sayfa</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Destek</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">İletişim</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Bildir</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">İletişim</p>
+          </li>
+
+          <li class="footer-item">
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:sbastan648@gmail.com" class="footer-item-link">sbastan648@gmail.com</a>
+              <a href="tel:+905421237336" class="footer-item-link">+90 542 123 73 36</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <address class="footer-item-link">
+              World
+            </address>
+
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="copyright">
+        &copy; 2023 <a href="/" class="copyright-link">SMT</a> All Right Reserved
+      </p>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top  active" aria-label="Yukarı Çık" data-go-top title="Yukarı Çık">
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
